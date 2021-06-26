@@ -1,0 +1,16 @@
+#! /usr/bin/env node
+require('../src/index.js')
+// const program = require('commander')
+// /*
+// *inquirer功能简介
+// *		input–输入
+// *		validate–验证
+// *		list–列表选项
+// *		confirm–提示
+// *		checkbox–复选框等等
+// */
+// const chalk = require('chalk')
+//
+// program
+//     .version('0.0.1')
+//     .parse(process.argv);

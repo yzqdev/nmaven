@@ -1,0 +1,74 @@
+{
+  "_from": "nmaven",
+  "_id": "nmaven@0.1.5-beta.2",
+  "_inBundle": false,
+  "_integrity": "sha1-FJTBf1yD6GBLLz3yzYs46ZuKmd8=",
+  "_location": "/nmaven",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nmaven",
+    "name": "nmaven",
+    "escapedName": "nmaven",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/nmaven/download/nmaven-0.1.5-beta.2.tgz",
+  "_shasum": "1494c17f5c83e8604b2f3df2cd8b38e99b8a99df",
+  "_spec": "nmaven",
+  "_where": "/home/yzq/qtproj",
+  "author": {
+    "name": "yzqdev"
+  },
+  "bin": {
+    "nm": "bin/nmaven",
+    "nmaven": "bin/nmaven"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.1",
+    "command-exists": "^1.2.9",
+    "commander": "^8.0.0",
+    "execa": "^5.1.1",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.1.7",
+    "inquirer": "^8.1.1",
+    "kleur": "^4.1.4",
+    "mri": "^1.1.6",
+    "npm": "^7.19.0",
+    "npm-check-updates": "^11.7.1",
+    "readline-sync": "^1.4.10",
+    "shelljs": "^0.8.4",
+    "yargs": "^17.0.1"
+  },
+  "deprecated": false,
+  "description": "生成yarn2的配置文件",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.11",
+    "@types/node": "^15.12.4",
+    "@types/yargs": "17.0.0"
+  },
+  "engines": {
+    "node": ">=8.6.0"
+  },
+  "keywords": [
+    "cli",
+    "yarn"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "nmaven",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "ncu": "ncu &&ncu -u&&yarn"
+  },
+  "version": "0.1.5-beta.2"
+}
